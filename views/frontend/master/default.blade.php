@@ -11,6 +11,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="href="{{ asset('project/assets/images/apple-touch-icon.png') }}"" />
         <link rel="shortcut icon" href="{{ asset('project/assets/images/favicon.ico') }}" />
