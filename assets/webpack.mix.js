@@ -7,4 +7,5 @@ mix.webpackConfig({
 });
 
 mix.js('resources/assets/js/app.js', 'js')
-  .sass('resources/assets/sass/main.scss', 'css');
+  .sass('resources/assets/sass/main.scss', 'css')
+  .setResourceRoot('/project/assets/');
