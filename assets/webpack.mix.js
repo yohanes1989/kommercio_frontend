@@ -6,6 +6,8 @@ mix.webpackConfig({
   }
 });
 
-mix.js('resources/assets/js/app.js', 'js')
+mix.js('resources/assets/js/app.js', 'js/compiled.js')
   .sass('resources/assets/sass/main.scss', 'css')
   .setResourceRoot('/project/assets/');
+
+mix.babel(['js/compiled.js'], 'js/app.js');
